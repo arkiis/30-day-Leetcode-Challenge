@@ -1,9 +1,10 @@
 var findComplement = function (num) {
-  let binary = num.toString(2);
+  let binary = num.toString(2); //Convert to Binary
 
   let convert = [];
 
   for (let num of binary) {
+    //Linear Search
     if (num == "1") {
       convert.push("0");
     } else {
