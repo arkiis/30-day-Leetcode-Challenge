@@ -38,3 +38,4 @@ var isCousins = function (root, x, y) {
 
   return map[x].parent !== map[y].parent && map[x].level === map[y].level;
 };
+//Time: O(N) Space: O(1)
