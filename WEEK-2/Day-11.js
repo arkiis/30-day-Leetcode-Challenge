@@ -1,5 +1,5 @@
 //singleNonDuplicate
-
+//Binary search
 var singleNonDuplicate = function (nums) {
   let high = nums.length - 1;
   let low = 0;
